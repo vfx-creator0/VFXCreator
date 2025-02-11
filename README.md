@@ -1,6 +1,6 @@
 <h1 id="title">🔆 VFX Creator: Animated Visual Effect Generation with Controllable Diffusion Transformer</h1>
 <p align="center">
-  <a href="https://liuxinyv.github.io/" target="_blank">Xinyu Liu</a><sup>1</sup>,
+  <!-- <a href="https://liuxinyv.github.io/" target="_blank">Xinyu Liu</a><sup>1</sup>,
   <a href="https://ailingzeng.site/" target="_blank">Ailing Zeng</a><sup>2</sup>, 
   <a href="http://undefined" target="_blank">Wei Xue</a><sup>1</sup>, 
   <a href="http://undefined" target="_blank">Harry Yang</a><sup>1</sup>, 
@@ -9,7 +9,7 @@
    <a href="http://undefined" target="_blank">Yike Guo</a><sup>1</sup>
   <br><br>
   <sup>1</sup>Hong Kong University of Science and Technology<br>
-  <sup>2</sup>Tencent AI Lab<br>
+  <sup>2</sup>Tencent AI Lab<br> -->
 </p>
 <div align="center">
   <a href="https://vfx-creator0.github.io/"><img src="https://img.shields.io/static/v1?label=Project%20Page&message=Github&color=blue&logo=github-pages"></a> &ensp;
