@@ -86,4 +86,5 @@
 <h2 id="changelog">⭐ Changelog</h2>
 
 <ul><li><p><strong>[2025.02]</strong>: 🔥 Paper Release.</p></li>
+<ul><li><p><strong>[Coming soon]</strong>: 🔥 Inference Code.</p></li>
 </ul></div></body></html>
