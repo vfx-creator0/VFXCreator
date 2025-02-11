@@ -17,7 +17,7 @@
 
 </div>
 
-<img src="assets\teaser.jpg" width="800"/>
+<!-- <img src="assets\teaser.jpg" width="800"/> -->
 
 <h2 id="abstract">🔆 Abstract</h2>
 
