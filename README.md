@@ -88,7 +88,7 @@
 <ul>
   <li>
     <p><strong>[2025.02]</strong>: 🔥 Paper Release.</p>
-    <p>•<strong>[Coming soon]</strong>: 🔥 Dataset and code.</p>
+    <p><strong>[Coming soon]</strong>: 🔥 Dataset and code.</p>
   </li>
 </ul>
 </ul></div></body></html>
