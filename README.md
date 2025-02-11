@@ -31,19 +31,53 @@
 
 <h2 id="demonstration">📝 Demonstration</h2>
 
-## 📝 Demonstration
-
-| Ta-da it | Crumble it | Crush it | Decapitate it | Deflate it |
-|----------|------------|----------|---------------|------------|
-| ![Ta-da it](assets/Ta-da_it-1.mp4) | ![Crumble it](assets/Crumble-2.mp4) | ![Crush it](assets/Crush-4.mp4) | ![Decapitate it](assets/Decapitate-2.mp4) | ![Deflate it](assets/Deflate-3.mp4) |
-
-| Dissolve it | Explode it | Eye-pop it | Inflate it | Levitate it |
-|-------------|------------|------------|------------|-------------|
-| ![Dissolve it](assets/Dissolve_it-0.mp4) | ![Explode it](assets/Explode_it-0.mp4) | ![Eye-pop it](assets/Eye-pop-0.mp4) | ![Inflate it](assets/Inflate_it-1.mp4) | ![Levitate it](assets/Levitate_it-3.mp4) |
-
-| Melt it | Squish it | Cake-ify it | Hot Harley Quinn | We are Venom |
-|---------|-----------|--------------|------------------|---------------|
-| ![Melt it](assets/Melt_it-3.mp4) | ![Squish it](assets/Squish_it-4.mp4) | ![Cake-ify it](assets/Cake-ify-4.mp4) | ![Hot Harley Quinn](assets/harley-1.mp4) | ![We are Venom](assets/venom-3.mp4) |
+<table width="1000" align="center" style="margin-top: 30px;">
+  <tbody>
+    <tr>
+      <!-- <th style="font-size: 16px; color: #d4a845;font-family: Cavolini;">"a fast driving tank"</th> -->
+      <th style="font-size: 16px">Ta-da it</th>
+      <th style="font-size: 16px">Crumble it</th>
+      <th style="font-size: 16px">Crush it</th>
+      <th style="font-size: 16px">Decapitate it</th>
+      <th style="font-size: 16px">Deflate it</th>
+    </tr>
+    <tr>
+      <th><video  class="input_image_comparison" src="assets/Ta-da_it-1.mp4" autoplay loop controls muted/></th>
+      <th><video  class="input_image_comparison" src="assets/Crumble-2.mp4" autoplay loop controls muted/></th>          
+      <th><video  class="input_image_comparison" src="assets/Crush-4.mp4" autoplay loop controls muted/></th>
+      <th><video  class="input_image_comparison" src="assets/Decapitate-2.mp4" autoplay loop controls muted/></th>
+      <th><video  class="input_image_comparison" src="assets/Deflate-3.mp4" autoplay loop controls muted/></th>        </tr>
+    <tr>
+      <th style="font-size: 16px">Dissolve it</th>
+      <th style="font-size: 16px">Explode it</th>
+      <th style="font-size: 16px">Eye-pop it</th>
+      <th style="font-size: 16px">Inflate it</th>
+      <th style="font-size: 16px">Levitate it</th>
+    </tr>
+    <tr>
+      <th><video class="input_image_comparison" src="assets/Dissolve_it-0.mp4" autoplay loop controls muted/></th>
+      <th><video class="input_image_comparison" src="assets/Explode_it-0.mp4" autoplay loop controls muted/></th>
+      <th><video  class="input_image_comparison" src="assets/Eye-pop-0.mp4" autoplay loop controls muted/></th>
+      <th><video  class="input_image_comparison" src="assets/Inflate_it-1.mp4" autoplay loop controls muted/></th>
+      <th><video class="input_image_comparison" src="assets/Levitate_it-3.mp4" autoplay loop controls muted/></th>
+    </tr>
+    <tr>
+      <th style="font-size: 16px">Melt it</th>
+      <th style="font-size: 16px">Squish it</th>
+      <th style="font-size: 16px">Cake-ify it</th>
+      <th style="font-size: 16px">Hot Harley Quinn</th>
+      <th style="font-size: 16px">We are Venom</th>
+    </tr>
+    <tr>
+      <th><video class="input_image_comparison" src="assets/Melt_it-3.mp4" autoplay loop controls muted/></th>
+      <th><video class="input_image_comparison" src="assets/Squish_it-4.mp4" autoplay loop controls muted/></th>
+      <th><video  class="input_image_comparison" src="assets/Cake-ify-4.mp4" autoplay loop controls muted/></th>
+      <th><video  class="input_image_comparison" src="assets/harley-1.mp4" autoplay loop controls muted/></th>
+      <th><video class="input_image_comparison" src="assets/venom-3.mp4" autoplay loop controls muted/></th>
+    </tr>
+    
+  </tbody>
+</table>
 
 <h2 id="vfx-creator">😊 VFX Creator</h2>
 
