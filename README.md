@@ -80,7 +80,9 @@
 
 <h2 id="vfx-creator">😊 VFX Creator</h2>
 
-<p><img src="assets/method.png" width="500" alt=""></p>
+<div align="center">
+  <img src="assets/method.png" width="500" alt="">
+</div>
 <h2 id="changelog">⭐ Changelog</h2>
 
 <ul><li><p><strong>[2025.02]</strong>: 🔥 Paper Release.</p></li>
