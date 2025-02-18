@@ -1,4 +1,4 @@
-<h1 id="title">🔆 VFX Creator: Animated Visual Effect Generation with Controllable Diffusion Transformer</h1>
+<h1 id="title">VFX Creator: Animated Visual Effect Generation with Controllable Diffusion Transformer</h1>
 <p align="center">
   <!-- <a href="https://liuxinyv.github.io/" target="_blank">Xinyu Liu</a><sup>1</sup>,
   <a href="https://ailingzeng.site/" target="_blank">Ailing Zeng</a><sup>2</sup>, 
