@@ -87,10 +87,10 @@
 This reposity will be updated soon, including:
 <ul>
   <li>
-    <p><strong>[2025.02]</strong>: 🔥 Arxiv paper</p>
-    <p><strong>[2025.03]</strong>: 🔥 Uploading the **Open-VFX Dataset**.</p>
-    <p><strong>[Coming Soon]</strong>: Uploading the codes of **VFX Creator**.</p>
-    <p><strong>[Coming Soon]</strong>: Uploading the **Checkpoints** of all visual effects.</p>
+    <p><strong>2025.02</strong>: 🔥 Arxiv paper</p>
+    <p><strong>2025.03</strong>: 🔥 Uploading the <strong>Open-VFX Dataset</strong>.</p>
+    <p><strong>Coming Soon</strong>: Uploading the codes of <strong>VFX Creator</strong>.</p>
+    <p><strong>Coming Soon</strong>: Uploading the <strong>Checkpoints</strong> of all visual effects.</p>
   </li>
 </ul>
 
