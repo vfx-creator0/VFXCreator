@@ -84,11 +84,25 @@
   <img src="assets/method.png" width="500" alt="">
 </div>
 <h2 id="changelog">⭐ Changelog</h2>
+This reposity will be updated soon, including:
+- [x] Arxiv paper
+- [x] Uploading the **Open-VFX Dataset**.
+- [ ] Uploading the **Annotation Tools**.
+- [ ] Uploading the codes of **VFX Creator**.
+- [ ] Uploading the **Training** and **Evaluation** scripts.
+- [ ] Uploading the **Checkpoints** of all visual effects.
 
-<ul>
-  <li>
-    <p><strong>[2025.02]</strong>: 🔥 Paper Release.</p>
-    <p><strong>[Coming soon]</strong>: 🔥 Dataset and code.</p>
-  </li>
-</ul>
+## Citation
+
+If you find our work useful in your research, please consider citing:
+
+```bibtex
+@article{liu2025vfx,
+  title={VFX Creator: Animated Visual Effect Generation with Controllable Diffusion Transformer},
+  author={Liu, Xinyu and Zeng, Ailing and Xue, Wei and Yang, Harry and Luo, Wenhan and Liu, Qifeng and Guo, Yike},
+  journal={arXiv preprint arXiv:2502.05979},
+  year={2025}
+}
+```
+
 </ul></div></body></html>
