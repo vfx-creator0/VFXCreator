@@ -94,6 +94,18 @@ This reposity will be updated soon, including:
   </li>
 </ul>
 
+## Note
+This repository will be updated soon, including:
+- [x] **Initialization**.
+- [x] Uploading the **TOD3Cap Dataset**.
+- [ ] Uploading the **Annotation Tools**.
+- [x] Uploading the codes of **TOD3Cap Network**.
+- [x] Uploading the **Installation** guidelines.
+- [x] Uploading the **Training** and **Evaluation** scripts.
+- [ ] Uploading the **Visualization** scripts of gt data and predicted results.
+- [ ] Uploading the **Baselines** implementation.
+
+## Citation
 If you find our work useful in your research, please consider citing:
 
 ```bibtex
