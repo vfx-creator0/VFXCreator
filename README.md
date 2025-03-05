@@ -14,6 +14,7 @@
 <div align="center">
   <a href="https://vfx-creator0.github.io/"><img src="https://img.shields.io/static/v1?label=Project%20Page&message=Github&color=blue&logo=github-pages"></a> &ensp;
   <a href="https://arxiv.org/abs/2502.05979"><img src="https://img.shields.io/static/v1?label=Paper&message=Arxiv&color=red&logo=arxiv"></a> &ensp;
+  <a href="https://drive.google.com/drive/folders/1LGimA3Il-9J1eJ3FYSzASnfD2Gcls_W1" target="_blank"><img src="https://img.shields.io/badge/Data-TOD3Cap-darkorange" alt="Data"></a>
 
 </div>
 
@@ -32,7 +33,6 @@ This repository will be updated soon, including:
 - [ ] Uploading the **Annotation Tools**.
 - [ ] Uploading the codes of **VFX Creator**.
 - [ ] Uploading the **Training** and **Evaluation** scripts.
-- [ ] Uploading the **Visualization** scripts of gt data and predicted results.
 - [ ] Uploading the **Checkpoints** of all visual effects.
 
       
