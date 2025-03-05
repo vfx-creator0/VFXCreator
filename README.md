@@ -96,14 +96,13 @@ This reposity will be updated soon, including:
 
 ## Note
 This repository will be updated soon, including:
-- [x] **Initialization**.
-- [x] Uploading the **TOD3Cap Dataset**.
+- [x] **Arxiv paper**.
+- [x] Uploading the **Open-VFX Dataset**.
 - [ ] Uploading the **Annotation Tools**.
-- [x] Uploading the codes of **TOD3Cap Network**.
-- [x] Uploading the **Installation** guidelines.
-- [x] Uploading the **Training** and **Evaluation** scripts.
+- [ ] Uploading the codes of **VFX Creator**.
+- [ ] Uploading the **Training** and **Evaluation** scripts.
 - [ ] Uploading the **Visualization** scripts of gt data and predicted results.
-- [ ] Uploading the **Baselines** implementation.
+- [ ] Uploading the **Checkpoints** of all visual effects.
 
 ## Citation
 If you find our work useful in your research, please consider citing:
