@@ -25,6 +25,17 @@
   <p>Crafting magic and illusions stands as one of the most thrilling facets of filmmaking, with visual effects (VFX) serving as the powerhouse behind unforgettable cinematic experiences. While recent advances in generative artificial intelligence have catalyzed progress in generic image and video synthesis, the domain of controllable VFX generation remains comparatively underexplored. More importantly, fine-grained spatial-temporal controllability in VFX generation is critical, but challenging due to data scarcity, complex dynamics, and precision in spatial manipulation. In this work, we propose a novel paradigm for animated VFX generation as image animation, where dynamic effects are generated from user-friendly textual descriptions and static reference images. Our work makes two primary contributions: <strong>i) Open-VFX</strong>, the first high-quality VFX video dataset spanning 15 diverse effect categories, annotated with textual descriptions, instance segmentation masks for spatial conditioning, and start–end timestamps for temporal control; This dataset features a wide range of subjects for the reference images, including characters, animals, products, and scenes. <strong>ii) VFX Creator</strong>, a simple yet effective controllable VFX generation framework based on a Video Diffusion Transformer. The model incorporates a spatial and temporal controllable LoRA adapter, requiring minimal training videos. Specifically, a plug-and-play mask control module enables instance-level spatial manipulation, while tokenized start-end motion timestamps embedded in the diffusion process accompanied by the text encoder, allowing precise temporal control over effect timing and pace.  Extensive experiments on the Open-VFX test set with unseen reference images demonstrate the superiority of the proposed system to generate realistic and dynamic effects, achieving state-of-the-art performance and generalization ability in both spatial and temporal controllability. Furthermore, we introduce a specialized metric to evaluate the precision of temporal control. By bridging traditional VFX techniques with generative techniques, the proposed VFX Creator unlocks new possibilities for efficient, user-friendly, and high-quality video effect generation, making advanced VFX accessible to a broader audience.</p>
 </blockquote>
 
+## Note
+This repository will be updated soon, including:
+- [x] **Arxiv paper**.
+- [x] Uploading the **Open-VFX Dataset**.
+- [ ] Uploading the **Annotation Tools**.
+- [ ] Uploading the codes of **VFX Creator**.
+- [ ] Uploading the **Training** and **Evaluation** scripts.
+- [ ] Uploading the **Visualization** scripts of gt data and predicted results.
+- [ ] Uploading the **Checkpoints** of all visual effects.
+
+      
 <h2 id="open-vfx-dataset-overview">🚁 Overview of Open-VFX Dataset</h2>
 
 <p><img src="assets/openvfx.png" width="800" alt=""></p>
@@ -83,26 +94,7 @@
 <div align="center">
   <img src="assets/method.png" width="500" alt="">
 </div>
-<h2 id="changelog">⭐ Changelog</h2>
-This reposity will be updated soon, including:
-<ul>
-  <li>
-    <p><strong>2025.02</strong>: 🔥 Arxiv paper</p>
-    <p><strong>2025.03</strong>: 🔥 Uploading the <strong>Open-VFX Dataset</strong>.</p>
-    <p><strong>Coming Soon</strong>: Uploading the codes of <strong>VFX Creator</strong>.</p>
-    <p><strong>Coming Soon</strong>: Uploading the <strong>Checkpoints</strong> of all visual effects.</p>
-  </li>
-</ul>
 
-## Note
-This repository will be updated soon, including:
-- [x] **Arxiv paper**.
-- [x] Uploading the **Open-VFX Dataset**.
-- [ ] Uploading the **Annotation Tools**.
-- [ ] Uploading the codes of **VFX Creator**.
-- [ ] Uploading the **Training** and **Evaluation** scripts.
-- [ ] Uploading the **Visualization** scripts of gt data and predicted results.
-- [ ] Uploading the **Checkpoints** of all visual effects.
 
 ## Citation
 If you find our work useful in your research, please consider citing:
