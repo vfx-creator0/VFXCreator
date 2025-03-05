@@ -85,23 +85,14 @@
 </div>
 <h2 id="changelog">⭐ Changelog</h2>
 This reposity will be updated soon, including:
-- [x] Arxiv paper
-- [x] Uploading the **Open-VFX Dataset**.
-- [ ] Uploading the **Annotation Tools**.
-- [ ] Uploading the codes of **VFX Creator**.
-- [ ] Uploading the **Training** and **Evaluation** scripts.
-- [ ] Uploading the **Checkpoints** of all visual effects.
-## Note
-This reposity will be updated soon, including:
-- [x] **Initialization**.
-- [x] Uploading the **TOD3Cap Dataset**.
-- [ ] Uploading the **Annotation Tools**.
-- [x] Uploading the codes of **TOD3Cap Network**.
-- [x] Uploading the **Installation** guidelines.
-- [x] Uploading the **Training** and **Evaluation** scripts.
-- [ ] Uploading the **Visualization** scripts of gt data and predicted results.
-- [ ] Uploading the **Baselines** implementation.
-## Citation
+<ul>
+  <li>
+    <p><strong>[2025.02]</strong>: 🔥 Arxiv paper</p>
+    <p><strong>[2025.03]</strong>: 🔥 Uploading the **Open-VFX Dataset**.</p>
+    <p><strong>[Coming Soon]</strong>: Uploading the codes of **VFX Creator**.</p>
+    <p><strong>[Coming Soon]</strong>: Uploading the **Checkpoints** of all visual effects.</p>
+  </li>
+</ul>
 
 If you find our work useful in your research, please consider citing:
 
