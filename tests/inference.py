@@ -21,7 +21,7 @@ import numpy as np
 import random
 from diffusers.utils import convert_unet_state_dict_to_peft, export_to_video, load_image
 
-def generate_video(model_path,ref_image, prompt, lora_path, lora_name, output_file, fps):
+def generate_video(model_path,ref_image, prompt, lora_path, lora_name, output_file):
 
     pipe = CogVideoXImageToVideoPipeline.from_pretrained(model_path,torch_dtype=torch.bfloat16).to("cuda")
     pipe.load_lora_weights(lora_path, weight_name="pytorch_lora_weights.safetensors", adapter_name=lora_name)
@@ -29,9 +29,8 @@ def generate_video(model_path,ref_image, prompt, lora_path, lora_name, output_fi
     pipe.enable_model_cpu_offload()
     pipe.vae.enable_slicing()
     pipe.vae.enable_tiling()
-    steps=lora_path.split('/')[-1].split('-')[-1]
     video = pipe(image=load_image(ref_image),prompt=prompt).frames[0]
-    export_to_video(video, output_file, fps=fps)
+    export_to_video(video, output_file)
 
 
 def main():
