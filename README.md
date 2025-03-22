@@ -69,7 +69,7 @@ We provide all LoRA weights for different VFX:
 After downloading the weights, you can evaluate the models using the provided script. Please modify the model path and other parameters in the script before running:
 
 ```bash
-bash inference.sh
+bash test.sh
 ```
 ## Acknowledgment
 
