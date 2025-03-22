@@ -34,7 +34,7 @@ This repository will be updated soon, including:
 - [ ] Uploading the **Annotation Tools**.
 - [ ] Uploading the codes of **VFX Creator**.
 - [ ] Uploading the **Training** and **Evaluation** scripts.
-- [] Uploading the **Spatial-temporal Controlled Checkpoints** of visual effects.
+- [ ] Uploading the **Spatial-temporal Controlled Checkpoints** of visual effects.
       
 <h2 id="open-vfx-dataset-overview">🚁 Overview of Open-VFX Dataset</h2>
 
