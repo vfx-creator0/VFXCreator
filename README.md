@@ -30,11 +30,11 @@
 This repository will be updated soon, including:
 - [x] **Arxiv paper**.
 - [x] Uploading the **Open-VFX Dataset**.
+- [x] Uploading the **Checkpoints** of all visual effects.
 - [ ] Uploading the **Annotation Tools**.
 - [ ] Uploading the codes of **VFX Creator**.
 - [ ] Uploading the **Training** and **Evaluation** scripts.
-- [x] Uploading the **Checkpoints** of all visual effects.
-
+- [] Uploading the **Spatial-temporal Controlled Checkpoints** of visual effects.
       
 <h2 id="open-vfx-dataset-overview">🚁 Overview of Open-VFX Dataset</h2>
 
