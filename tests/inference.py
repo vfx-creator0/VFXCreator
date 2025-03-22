@@ -6,37 +6,46 @@ python3 test_lora_inference.py --prompt "A girl is ridding a bike." --model_path
 ```
 
 """
-
+import os
 import argparse
 import torch
 from diffusers import CogVideoXPipeline
 from diffusers.utils import export_to_video
+from diffusers import (
+    AutoencoderKLCogVideoX,
+    CogVideoXDPMScheduler,
+    CogVideoXImageToVideoPipeline,
+    CogVideoXTransformer3DModel,
+)
+import numpy as np
+import random
+from diffusers.utils import convert_unet_state_dict_to_peft, export_to_video, load_image
 
+def generate_video(model_path,ref_image, prompt, lora_path, lora_name, output_file, fps):
 
-def generate_video(model_path, prompt, lora_path, lora_name, output_file, fps):
-    pipe = CogVideoXPipeline.from_pretrained(model_path, torch_dtype=torch.bfloat16).to("cuda")
+    pipe = CogVideoXImageToVideoPipeline.from_pretrained(model_path,torch_dtype=torch.bfloat16).to("cuda")
     pipe.load_lora_weights(lora_path, weight_name="pytorch_lora_weights.safetensors", adapter_name=lora_name)
     pipe.set_adapters([lora_name], [1.0])
     pipe.enable_model_cpu_offload()
     pipe.vae.enable_slicing()
     pipe.vae.enable_tiling()
-
-    video = pipe(prompt=prompt).frames[0]
+    steps=lora_path.split('/')[-1].split('-')[-1]
+    video = pipe(image=load_image(ref_image),prompt=prompt).frames[0]
     export_to_video(video, output_file, fps=fps)
 
 
 def main():
     parser = argparse.ArgumentParser(description="Generate video using CogVideoX and LoRA weights")
-    parser.add_argument("--prompt", type=str, required=True, help="Text prompt for the video generation")
+    parser.add_argument("--prompt", type=str,default="")
     parser.add_argument("--model_path", type=str, default="THUDM/CogVideoX-5b-I2V", help="Base Model path or HF ID")
-    parser.add_argument("--lora_path", type=str, required=True, help="Path to the LoRA weights")
+    parser.add_argument("--lora_path", type=str, default="")
     parser.add_argument("--lora_name", type=str, default="lora_adapter", help="Name of the LoRA adapter")
     parser.add_argument("--output_file", type=str, default="output.mp4", help="Output video file name")
-    parser.add_argument("--fps", type=int, default=8, help="Frames per second for the output video")
+    parser.add_argument("--ref_image", type=str, default="")
 
     args = parser.parse_args()
 
-    generate_video(args.prompt, args.lora_path, args.lora_name, args.output_file, args.fps)
+    generate_video(args.model_path,args.ref_image,args.prompt, args.lora_path, args.lora_name, args.output_file, args.fps)
 
 
 if __name__ == "__main__":
