@@ -38,7 +38,7 @@ This repository will be updated soon, including:
       
 <h2 id="open-vfx-dataset-overview">🚁 Overview of Open-VFX Dataset</h2>
 
-<p><img src="assets/openvfx.png" width="800" alt=""></p>
+<p><img src="assets/openvfx.jpg" width="800" alt=""></p>
 
 <!-- <h2 id="demonstration">📝 Demonstration</h2>
 
