@@ -63,7 +63,7 @@ pip install -r requirements.txt
 
 We provide all LoRA weights for different VFX:
 
-- [VFX-LoRA-Weights](https://huggingface.co/sophiaa/VFXCreator)
+- [OpenVFX-LoRA-Weights](https://huggingface.co/sophiaa/VFXCreator)
 
 
 After downloading the weights, you can evaluate the models using the provided script. Please modify the model path and other parameters in the script before running:
