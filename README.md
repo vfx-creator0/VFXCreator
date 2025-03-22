@@ -71,6 +71,14 @@ After downloading the weights, you can evaluate the models using the provided sc
 ```bash
 bash test.sh
 ```
+
+## Training
+**For General VFX Generation**:
+```bash
+bash train.sh
+```
+Note: Please check the script content before running and modify paths and parameters as needed. For different datasets, please modify the **DATA_ROOT** and **CAPTION_COLUMN**
+
 ## Acknowledgment
 
 We would like to thank the open-source data and code of [CogVideo](https://github.com/THUDM/CogVideo), [finetrainers](https://github.com/a-r-r-o-w/finetrainers), [cogvideox-controlnet](https://github.com/TheDenk/cogvideox-controlnet).
