@@ -71,6 +71,9 @@ After downloading the weights, you can evaluate the models using the provided sc
 ```bash
 bash inference.sh
 ```
+## Acknowledgment
+
+We would like to thank the open-source data and code of [CogVideo](https://github.com/THUDM/CogVideo), [finetrainers](https://github.com/a-r-r-o-w/finetrainers), [cogvideox-controlnet](https://github.com/TheDenk/cogvideox-controlnet).
 
 ## Citation
 If you find our work useful in your research, please consider citing:
