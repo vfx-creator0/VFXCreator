@@ -33,61 +33,12 @@ This repository will be updated soon, including:
 - [ ] Uploading the **Annotation Tools**.
 - [ ] Uploading the codes of **VFX Creator**.
 - [ ] Uploading the **Training** and **Evaluation** scripts.
-- [ ] Uploading the **Checkpoints** of all visual effects.
+- [x] Uploading the **Checkpoints** of all visual effects.
 
       
 <h2 id="open-vfx-dataset-overview">🚁 Overview of Open-VFX Dataset</h2>
 
 <p><img src="assets/openvfx.jpg" width="800" alt=""></p>
-
-<!-- <h2 id="demonstration">📝 Demonstration</h2>
-
-<table width="1000" align="center" style="margin-top: 30px;">
-  <tbody>
-    <tr>
-      <th style="font-size: 16px">Ta-da it</th>
-      <th style="font-size: 16px">Crumble it</th>
-      <th style="font-size: 16px">Crush it</th>
-      <th style="font-size: 16px">Decapitate it</th>
-      <th style="font-size: 16px">Deflate it</th>
-    </tr>
-    <tr>
-      <th><video  class="input_image_comparison" src="assets/Ta-da_it-1.mp4" autoplay loop controls muted></th>
-      <th><video  class="input_image_comparison" src="assets/Crumble-2.mp4" autoplay loop controls muted></th>          
-      <th><video  class="input_image_comparison" src="assets/Crush-4.mp4" autoplay loop controls muted></th>
-      <th><video  class="input_image_comparison" src="assets/Decapitate-2.mp4" autoplay loop controls muted></th>
-      <th><video  class="input_image_comparison" src="assets/Deflate-3.mp4" autoplay loop controls muted></th>        </tr>
-    <tr>
-      <th style="font-size: 16px">Dissolve it</th>
-      <th style="font-size: 16px">Explode it</th>
-      <th style="font-size: 16px">Eye-pop it</th>
-      <th style="font-size: 16px">Inflate it</th>
-      <th style="font-size: 16px">Levitate it</th>
-    </tr>
-    <tr>
-      <th><video class="input_image_comparison" src="assets/Dissolve_it-0.mp4" autoplay loop controls muted></th>
-      <th><video class="input_image_comparison" src="assets/Explode_it-0.mp4" autoplay loop controls muted></th>
-      <th><video  class="input_image_comparison" src="assets/Eye-pop-0.mp4" autoplay loop controls muted></th>
-      <th><video  class="input_image_comparison" src="assets/Inflate_it-1.mp4" autoplay loop controls muted></th>
-      <th><video class="input_image_comparison" src="assets/Levitate_it-3.mp4" autoplay loop controls muted></th>
-    </tr>
-    <tr>
-      <th style="font-size: 16px">Melt it</th>
-      <th style="font-size: 16px">Squish it</th>
-      <th style="font-size: 16px">Cake-ify it</th>
-      <th style="font-size: 16px">Hot Harley Quinn</th>
-      <th style="font-size: 16px">We are Venom</th>
-    </tr>
-    <tr>
-      <th><video class="input_image_comparison" src="assets/Melt_it-3.mp4" autoplay loop controls muted></th>
-      <th><video class="input_image_comparison" src="assets/Squish_it-4.mp4" autoplay loop controls muted></th>
-      <th><video  class="input_image_comparison" src="assets/Cake-ify-4.mp4" autoplay loop controls muted></th>
-      <th><video  class="input_image_comparison" src="assets/harley-1.mp4" autoplay loop controls muted></th>
-      <th><video class="input_image_comparison" src="assets/venom-3.mp4" autoplay loop controls muted></th>
-    </tr>
-    
-  </tbody>
-</table> -->
 
 <h2 id="vfx-creator">😊 VFX Creator</h2>
 
@@ -95,6 +46,31 @@ This repository will be updated soon, including:
   <img src="assets/method.png" width="500" alt="">
 </div>
 
+## Installation
+Make sure that you have all dependencies in place. The simplest way to do so is to use anaconda.
+
+Make a new conda env and activate it:
+```
+conda create --name vfxcreator python=3.10
+conda activate vfxcreator
+```
+
+Install the the packages in the requirements.txt:
+```
+pip install -r requirements.txt
+```
+## Checkpoints
+
+We provide all LoRA weights for different VFX:
+
+- [VFX-LoRA-Weights](https://huggingface.co/sophiaa/VFXCreator)
+
+
+After downloading the weights, you can evaluate the models using the provided script. Please modify the model path and other parameters in the script before running:
+
+```bash
+bash inference.sh
+```
 
 ## Citation
 If you find our work useful in your research, please consider citing:
