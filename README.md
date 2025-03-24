@@ -81,7 +81,7 @@ Note: Please check the script content before running and modify paths and parame
 
 ## Acknowledgment
 
-We would like to thank the open-source data and code of [CogVideo](https://github.com/THUDM/CogVideo), [finetrainers](https://github.com/a-r-r-o-w/finetrainers), [cogvideox-controlnet](https://github.com/TheDenk/cogvideox-controlnet).
+We would like to thank the open-source code of [CogVideo](https://github.com/THUDM/CogVideo), [finetrainers](https://github.com/a-r-r-o-w/finetrainers), [cogvideox-controlnet](https://github.com/TheDenk/cogvideox-controlnet).
 
 ## Citation
 If you find our work useful in your research, please consider citing:
